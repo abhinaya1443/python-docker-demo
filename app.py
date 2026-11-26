@@ -19,7 +19,7 @@ def health():
 
 @app.errorhandler(404)
 def page_not_found(_error):
-    return jsonify(error="page not found"), 404
+    return jsonify(error="Hii"), 404
 
 
 if __name__ == "__main__":
